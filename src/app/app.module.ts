@@ -8,6 +8,9 @@ import { HomeComponent } from './components/pages/home/home.component';
 import { HeaderComponent } from './components/components-home/header/header.component';
 import { SideMenuComponent } from './components/components-home/side-menu/side-menu.component';
 
+
+//ngx-toastr
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,6 +18,7 @@ import { SideMenuComponent } from './components/components-home/side-menu/side-m
     HomeComponent,
     HeaderComponent,
     SideMenuComponent
+
   ],
   imports: [
     BrowserModule,
